@@ -1,0 +1,25 @@
+#this is a comment
+
+email = "morgan@abc.co.uk"
+name = "morgan"
+console = "playstation"
+age = 73.89
+price = 30.50
+
+
+
+#above are 2 variables
+#one is called email 
+#other is called name
+#both contain data
+
+ 
+print(email)
+print(name)
+print(console)
+print(age)
+print(price)
+
+#print is not a data type
+#print is a function
+#it displays text to the screen
