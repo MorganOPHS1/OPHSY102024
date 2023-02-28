@@ -1,0 +1,16 @@
+#Selection 
+
+Team1Points = 0
+Team2Points = 10
+Team3Points = 56
+
+if Team1Points <= 0:
+  print("Team 1 have a poor score of only", Team1Points, "points!")
+  
+  
+if Team2Points >= 6:
+  print("Team 2 has", Team2Points, "points!")
+  
+  
+if Team3Points == 56:
+  print("Team 3 have an amazing score of", Team3Points, "points!")
