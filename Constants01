@@ -1,0 +1,15 @@
+#this is a CONSTANT
+#Here is the difference
+#Variables are not in capitals
+#CONSTANTS are in ALL CAPITALS
+
+name = "bob" #Variable
+PI = 3.141592753 #CONSTANT
+XMASDAY = "25th December"
+WEEKDAYSBEGINNINGWITHF = "Friday"
+DOB = "15/11/07"
+ 
+ 
+ 
+ 
+ 
