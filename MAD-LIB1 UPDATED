@@ -1,0 +1,28 @@
+print ("Welcome to MAD-LIB")
+
+
+noun1 = input("Enter a noun e.g Person/Place/Thing >>>")
+adj1 = input("Enter an adjective e.g small/large/shiny >>>")
+#adj = adjective
+person1 = input("Enter a person >>>")
+food1 = input ("Enter a food >>>")
+food2 = input ("Enter another food >>>")
+person2 = input ("Enter another person >>>")
+place1 = input ("Enter a place >>>")
+noun2 = input ("Enter another noun >>>")
+adj2 = input("enter another adjective >>>")
+adj3 = input ("enter another adjective >>>")
+noun3 = input ("enter another noun >>>")
+person3 = input("enter one more person >>>")
+
+print (" ")
+
+
+
+print ("Congratulations!")
+print  (" ")
+print ("Here is your MAD-LIB")
+print  (" ")
+print  (" ")
+
+print ("One day, a", adj1, person1 , "was inside of", place1 , "enjoying some", food1 , "when suddenly a", adj2 , person2 , "came crashing into", place1 , "and hit", adj1, person1, "with a", noun1 , "and knocked them out", adj2 , person2 , "began to eat", person1 ,"'s", food2,"not long before", person3 , "flew in and hit", adj2, person2, "with their", noun3 )
