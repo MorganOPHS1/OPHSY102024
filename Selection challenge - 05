@@ -1,0 +1,13 @@
+weather = str(input("is it raining?"))
+
+
+if weather == "yes":
+ wind = input("is it windy?")
+ if wind == "yes":
+  print ("it is too windy for an umbrella")
+ elif wind == "no":
+  print ("take an umbrella")
+
+  
+else:
+  print ("enjoy your day")
