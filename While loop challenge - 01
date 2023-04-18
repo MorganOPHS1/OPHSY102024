@@ -1,0 +1,8 @@
+#WHILE LOOP CHALLENGES 1
+
+total = 0 
+while total <=50:
+  num = int(input("Pick a number"))
+  total = total + num
+print (total)
+
