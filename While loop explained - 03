@@ -1,0 +1,8 @@
+#While loops explained - 03
+
+username = ""
+
+while not username:
+  username = input("Please enter a username: ")
+
+
