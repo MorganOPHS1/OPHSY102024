@@ -1,0 +1,17 @@
+loop = 0
+
+count = 0 
+
+while loop == 0:
+  party = input("Who do you want to invite to the party?")
+  print (party, "has been invited")
+  party2 = input("Want to invite anyone else? y or n")
+  count = count + 1
+  if party2 == "n":
+    loop = 1
+
+else:
+  loop = loop + 0
+   
+print (count, "people have been invited")
+      
