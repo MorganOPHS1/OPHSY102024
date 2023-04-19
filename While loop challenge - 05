@@ -1,0 +1,19 @@
+#WHILE LOOP CHALLENGE 5
+
+loop = 0 
+
+compnum = 50
+
+
+while loop != 50:
+   numb = int(input("Enter a number"))
+    loop = numb 
+    if numb <50:
+      retry = (input("want to try again? y or n")
+if retry == "y":
+  
+
+
+
+
+
