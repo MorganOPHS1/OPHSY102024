@@ -1,0 +1,47 @@
+#PYTHON CHALLENGE - 01
+
+age = int(input("What is your age?"))
+print("Your age is", age)
+
+-----------------------------
+
+#PYTHON CHALLENGE - 02
+
+num1 = int(input("Enter a number"))
+num2 = int(input("enter another number"))
+
+
+avg = (num1 + num2)/2 
+
+print("the average is", avg)
+
+-----------------------------
+#PYTHON CHALLENGE - 03
+width = int(input("Enter width of rectangle - CM"))
+height = int(input("enter height of rectangle -CM"))
+
+area = width * height 
+
+
+
+print("The area of your rectangle is", area,"cm^2")
+
+------------------------------
+#PYTHON CHALLENGES - 04
+
+print ("----DIVISION CALCULATOR----")
+
+num1 = int(input("Enter a number"))
+num2 = int(input("Enter another number"))
+
+
+calcd = num1/num2
+
+print("The answer is", calcd)
+
+-----------------------------
+
+
+
+
+
