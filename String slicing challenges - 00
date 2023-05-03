@@ -1,0 +1,43 @@
+#STRING SLICING CHALLENGES - 01
+
+name = str(input("Enter your name"))
+
+lengthName = len(name)
+
+print("your name is", lengthName, "letters long")
+
+--------------------------------------------------
+#STRING SLICING CHALLENGES - 02
+
+fname = str(input("enter your first name"))
+lname = str(input("enter your last name"))
+
+
+nameLength = len(fname + lname)
+
+print(fname,"", lname)
+print(nameLength)
+-------------------------------------------------
+#STRING SLICING CHALLENGES - 03
+
+fname = str(input("enter your first name as lowercase"))
+lname = str(input("enter your last name as lowercase"))
+
+
+nameLength = len(fname + lname)
+
+print(fname,"", lname)
+-------------------------------------------------
+#STRING SLICING CHALLENGES - 04
+
+nrhyme = str(input("Enter the first line of a nursery rhyme"))
+
+rhymeLength = len(nrhyme)
+
+print ("That has",rhymeLength,"letters in it")
+
+snum = int(input("Enter a starting number"))
+enum = int(input("Enter an ending number"))
+
+print(nrhyme[snum:enum])
+---------------------------------------------------
