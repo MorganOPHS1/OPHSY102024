@@ -1,0 +1,28 @@
+#CASTING 01
+#CASTING = TO CONVERT FROM ONE DATA TYPE TO ANOTHER
+
+print("string1 is 1")
+print("string2 is 2")
+
+string1 = "1"
+string2 = "2"
+print("")
+
+print("you cant add strings!")
+print("")
+concatination = string1 + string2
+print("string1 + string2 =", concatination)
+print("")
+
+#Casting to Integers
+string1cast = int(string1)
+string2cast = int(string2)
+
+print("You can add integers")
+print("")
+adding = string1cast + string2cast
+print(adding)
+
+
+
+
