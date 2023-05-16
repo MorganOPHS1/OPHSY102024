@@ -1,0 +1,63 @@
+#random 
+
+import random 
+
+colours = ["red", "orange", "yellow", "green", "blue"]
+
+
+selected = random.choice(colours)
+
+print (selected)
+
+----------------------------------------------------------
+import sys
+import random
+
+
+ans = True
+coin = ["Heads", "Tails"]
+
+while ans:
+  question = input("Heads or Tails?")
+  coinflip = random.choice(coin)
+  print (coinflip)
+  ans = False
+
+if coinflip == question:
+  print("You win!")
+  
+elif coinflip != question:
+  print("Unlucky")
+------------------------------------------------------------
+import random 
+
+num = random.randint(1,5)
+choice = int(input("Pick a number between 1 and 5"))
+
+
+if choice == num:
+  print ("Well done! You guessed right")
+
+elif choice > num:
+  print ("Unlucky too big, try again")
+  choice2 = int(input("Pick another number!"))
+
+else:
+  print ("Too big, Try again")
+  choice2 = int(input("Pick another number!"))
+
+
+if choice2 == num:
+  print ("You got it!")
+
+elif choice2 != num:
+  print ("you lose")
+
+
+
+
+
+
+
+
+
