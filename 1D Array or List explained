@@ -1,0 +1,23 @@
+#lists/1D array 
+#below is a list
+
+
+Continents = ["Asia","Europe","South America","North America","Africa","Oceania","Antarctica"]
+
+print (Continents) #prints whole list
+print (Continents[0]) #Indexing
+print (Continents[3]) #displays different index/ components in the list
+print (Continents[1:4]) #displays specifix index / values in the list between certain list places
+
+
+#Appending to a List
+
+x = "abc" #new item
+Continents.append(x) #append new item to list
+print(Continents)#print list
+
+
+z = str(input("enter country:"))
+
+Continents.append(z)
+print(Continents)
