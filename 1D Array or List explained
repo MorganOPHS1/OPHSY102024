@@ -21,3 +21,45 @@ z = str(input("enter country:"))
 
 Continents.append(z)
 print(Continents)
+----------------------------------------------------
+#lists
+
+cars = []
+
+newcar = input("Enter a car brand")
+
+cars.append(newcar)
+
+newcar2 = input("Enter a car brand")
+newcar3 = input("Enter a car brand")
+
+cars.append(newcar2)
+cars.append(newcar3)
+
+print(cars)
+------------------------------------------------------
+cars = []
+
+sentry = True
+
+while sentry == True:
+  newcar= input("Enter a car brand or press x to exit")
+  if newcar == "x":
+    print("Exiting....")
+    sentry = False
+    print(cars)
+  else:
+    cars.append(newcar)
+    -------------------------------------------------------
+    sd = False
+
+invited = []
+
+
+while  sd == False:
+  ask = input("Do you want to invite anyone to the party? y or n")
+  if ask == "y":
+    who = input("Who do you want to invite?")
+    print(who)
+    ask2 = input("Anyone else?")
+    
