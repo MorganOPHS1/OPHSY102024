@@ -1,0 +1,89 @@
+party = "yes"
+names = []
+
+
+while party == "yes":
+  names.append(input("Enter a name >>>>>"))
+  names.append(input("Enter another name >>>"))
+  names.append(input("Enter another >>>>"))
+  party1 = str(input("Do you want to invite another?"))
+  if party1 == "no":
+    party = "no"
+    
+else:
+  party == "yes" 
+
+
+
+val = len(names)
+
+print ("you have invited", val, "people")
+----------------------------------------------------
+
+
+
+tvshow1 = "The simpsons"
+tvshow2 = "Spongebob"
+tvshow3 = "Family guy"
+tvshow4 = "TWD"
+
+shows = [tvshow1, tvshow2, tvshow3, tvshow4]
+
+print(tvshow1)
+print(tvshow2)
+print(tvshow3)
+print(tvshow4)
+print("")
+
+
+newshow = str(input("Enter a new show"))
+place = int(input("Enter the position you want your show to be in"))
+
+shows.insert(place-1, newshow)
+
+print(shows)
+
+--------------------------------------------------------------------
+food = []
+
+food.append(input("enter food1"))
+food.append(input("enter food2"))
+food.append(input("enter food3"))
+food.append(input("enter food4"))
+
+
+print(food)
+
+delf = int(input("Choose the number of a food you want to delete e.g 2 will delete chips"))
+
+
+del food [delf-1]
+
+print(food)
+--------------------------------------------------------------------
+nums = []
+
+nums.append(input("Enter number1"))
+nums.append(input("Enter number2"))
+nums.append(input("Enter number3"))
+
+print(nums)
+
+ask = str(input("Do you want to keep the last number you entered?"))
+
+if ask == "no":
+  del nums[2]
+  print(nums)
+  
+else:
+  print(nums)
+
+
+
+----------------------------------------------------
+
+
+
+
+
+
