@@ -1,0 +1,17 @@
+new = open("names.txt", "w")
+name1= "bob/n, "
+name2= "Mary/n, "
+name3= "john/n, "
+name4 = "maya/n, "
+name5 = "alex/n, "
+             
+new.write(name1)
+new.write(name2)
+new.write(name3)
+new.write(name4)
+new.write(name5)
+
+
+new.close()
+
+----------------------------------------------------
