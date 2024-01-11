@@ -1,0 +1,38 @@
+print ("Enter 2 numbers")
+
+NUMBER1 = int(input("Enter first number:"))
+NUMBER2 = int(input("Enter second number:"))
+
+
+if NUMBER1 > NUMBER2:
+  print (NUMBER2,NUMBER1)
+else:
+  print (NUMBER1,NUMBER2)
+
+
+
+
+
+
+print ("Enter a number under 20")
+
+NUMBER1 = int(input("Enter number:"))
+
+
+if NUMBER1 > 20:
+  print ("Too high!")
+else:
+  print ("Thank you.")
+
+
+
+
+
+name = input("Enter name")
+age = int(input("How old are you?"))
+
+age2 = age + 1
+
+print (name,"next year you will be", age2)
+
+
